@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "firstName": "Mostafa",
+    "lastName": "Mohamed",
+    "email": "mostafa.mohamed@example.com",
+    "phoneNumber": "123-456-7890",
+    "jobTitle": "Software Engineer",
+    "department": {
+      "id": 101,
+      "name": "IT",
+      "description": "Information Technology Department",
+      "location": "Cairo Office"
+    },
+    "hireDate": "2020-01-15",
+    "salary": 75000,
+    "employeeStatus": "ACTIVE",
+    "address": {
+      "street": "123 Main St",
+      "city": "Cairo",
+      "state": "Cairo Governorate",
+      "zipCode": "11211",
+      "country": "Egypt"
+    }
+  },
+  {
+    "id": 2,
+    "firstName": "Mohamed",
+    "lastName": "Osama",
+    "email": "mohamed.osama@example.com",
+    "phoneNumber": "987-654-3210",
+    "jobTitle": "Project Manager",
+    "department": {
+      "id": 102,
+      "name": "Management",
+      "description": "Management and Operations Department",
+      "location": "Alexandria Office",
+      "employees": []
+    },
+    "hireDate": "2018-05-23",
+    "salary": 95000,
+    "employeeStatus": "ACTIVE",
+    "address": {
+      "street": "456 Elm St",
+      "city": "Alexandria",
+      "state": "Alexandria Governorate",
+      "zipCode": "21500",
+      "country": "Egypt"
+    }
+  }
+]
