@@ -22,12 +22,5 @@ public class Employee {
     private double salary;
     private EmployeeStatus employeeStatus;
     private Address address;
-
-
-    //todo confirm of past understanding done
-    //todo how to clone the project from git hub
-    //todo new object from employee class
-    //todo make static method have 10 employees
-    //todo make 2 methods 1 to get all employees 2 method take name as input and search
 }
 

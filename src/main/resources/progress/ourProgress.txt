@@ -1,0 +1,6 @@
+17-01-2025
+1-confirm of past understanding done
+2-how to clone the project from git hub done
+3-new object from employee class done
+4-make static method have 10 employees done
+5-make 2 methods 1 to get all employees 2 method take name as input and search done

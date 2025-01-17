@@ -62,17 +62,24 @@ public class EmployeeData {
         return employees;
     }
 
-    public static Employee findEmployeeByName(String name) {
+
+    public static Employee findEmployeeByFistName(String firstName) {
         for (Employee employee : getEmployees()) {
-            String fullName = employee.getFirstName() + " " + employee.getLastName();
-            if (fullName.equals(name)) {
+           if(employee.getFirstName().equals(firstName)) {
+               return employee;
+           }
+        }
+        return new Employee();
+    }
+
+
+    public static Employee findEmployeeByLastName(String lastName) {
+        for (Employee employee : getEmployees()) {
+            if(employee.getLastName().equals(lastName)) {
                 return employee;
             }
         }
         return new Employee();
     }
 
-    public static List<Employee> getAllEmployees() {
-        return getEmployees();
-    }
 }
