@@ -4,3 +4,15 @@
 3-new object from employee class done
 4-make static method have 10 employees done
 5-make 2 methods 1 to get all employees 2 method take name as input and search done
+
+
+04-02-2025
+1-will make fast recap of what we should know done
+2-understand the role of the backend and how spring boot help us to focus on business logic done
+3-know the types of apis done
+4-understand how to organize our project done
+5-make get api to get employees and employee by name
+
+****Assistant****
+6-make get api get by first name and last name , email (3apis)
+7-make get api to take  city as query param name and return the employee which live in this city (1api)
